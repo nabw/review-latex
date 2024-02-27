@@ -1,5 +1,6 @@
 # Latex package "review"
 Minimal latex package for a hassle free reviewing process (beyond the review itself anyway). To use, just put the `review.sty` package next to your `main.tex` and import it with 
+
     \usepackage{review}
 
 Usage is very simple, use this pseudo-latex review as an example: 
