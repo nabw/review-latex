@@ -18,11 +18,12 @@ roundcorner=10pt}
 \colorlet{reviewerColor}{blue!70!white!80!black}
 \colorlet{answerWIPColor}{red!70!black}
 
-\newcommand{\reviewer}[1]{{\color{reviewerColor}#1}}
-\newcommand{\question}[2]{\noindent\thereviewCounter. \reviewer{#1} \addtocounter{reviewCounter}{1}}
-\newcommand{\answerWIP}[1]{\begin{flushright}\begin{minipage}{0.95\textwidth} {{\color{answerWIPColor} #1}} \end{minipage}\end{flushright}}
-\newcommand{\answerDone}[1]{\begin{flushright}\begin{minipage}{0.95\textwidth} {{\color{black} #1 }} \end{minipage}\end{flushright}}
+\newcommand{\reviewer}[1]{{\noindent\color{reviewerColor}#1}}
+\newcommand{\question}[2]{\par\noindent\thereviewCounter. \reviewer{#1} \addtocounter{reviewCounter}{1}}
+\newcommand{\answerWIP}[1]{\begin{flushright}\begin{minipage}{0.95\textwidth} {\par{\color{answerWIPColor} #1}} \end{minipage}\end{flushright}}
+\newcommand{\answerDone}[1]{\begin{flushright}\begin{minipage}{0.95\textwidth} {\par{\color{black} #1 }} \end{minipage}\end{flushright}}
 \newcommand{\citeinwork}[1]{\begin{flushright}\begin{minipage}{0.8\textwidth}\begin{mdframed} {\it #1} \end{mdframed}\end{minipage}\end{flushright}}
 
 
 \newcommand{\resetReviewCounter}{\setcounter{reviewCounter}{1}}
+
