@@ -3,6 +3,10 @@ Minimal latex package for a hassle free reviewing process (beyond the review its
 
     \usepackage{review}
 
+If you don't feel like downloading the file from your browser (I wouldn't), then you can just download the raw file:
+
+    wget https://raw.githubusercontent.com/nabw/review-latex/main/review.sty
+
 Usage is very simple, use this fictitous but scarily accurate work-in-progress review as an example: 
 
     \documentclass{article}
