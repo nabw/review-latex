@@ -43,4 +43,4 @@ Usage is very simple, use this fictitous but scarily accurate work-in-progress r
 
 Which is rendered into the following:
 
-![PDF rendering of the previous code]{example.png}
+![PDF rendering of the previous code](example.png)
